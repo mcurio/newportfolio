@@ -3,12 +3,43 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header .container-menu { 
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
 .wrapper {
     width: 100%;
 }
 
-.logo {
+/*.logo {
    margin: 1rem;
+}
+
+.container-menu {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 120px;
+    padding-right: 64px;
+
+    @media (max-width: 767px) {
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+}*/
+
+.hamburger {
+    display: block;
+    width: 35px;
+    cursor: pointer;
 }
 
 .info {
