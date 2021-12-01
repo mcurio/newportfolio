@@ -80,8 +80,8 @@ nav {
     text-align: right;
     top: 100%;
     right: 0;
-    background: var(--background);
-    width: 100%;
+    background: rgba(157, 167, 163, 0.788);
+    width: 30%;
     transform: scale(1,0);
     transform-origin: top;
     transition: transform 400ms ease-in-out;
@@ -94,6 +94,7 @@ nav ul {
 }
 
 nav li {
+    margin-top: 1em;
     margin-bottom: 1em;
     margin-right: 2em;
 }
