@@ -8,7 +8,7 @@
 
 body {
     margin: 0;
-    background-color: #334c49;
+    background-color: #a1a1a1;
     font-family: Helvetica, sans-serif;
     font-weight: 400;
 }
@@ -17,7 +17,7 @@ body {
 
 header {
     background: var(--background);
-    text-align: center;
+    text-align: left;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -105,13 +105,49 @@ nav a:hover {
 }
 
 .nav-toggle:checked ~ nav {
-transform: scale(1,1);
+    transform: scale(1,1);
 }
 
 .nav-toggle:checked ~ nav a {
     opacity: 1;
     transition: opacity 250ms ease-in-out 250ms;
 }
+
+.profile-pic {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+
+section {
+    padding: 3em 1em;
+}
+
+p {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 3rem;
+    /*margin-top: 55%;
+    margin-left: 140px;
+    margin-right: 100px;*/
+    line-height: 1.5;
+    letter-spacing: .5px;
+}
+
+.bio {
+    font-size: 18px;
+}
+
+.about-me {
+    width: 100%;
+    background: var(--background);
+    position: absolute;
+    top: 30%;
+    flex-direction: column;
+    color: #001512;
+}
+
+
 
 @media screen and (min-width: 800px) {
     .nav-toggle-label {
@@ -165,5 +201,9 @@ transform: scale(1,1);
 
     nav a:hover::before {
         transform: scale(1,1);
+    }
+
+    .about-me {
+        all: unset;
     }
 }
