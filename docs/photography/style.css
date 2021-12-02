@@ -122,34 +122,9 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-.profile-pic {
-    display: block;
-    max-width: 55%;
-    margin: auto;
-}
-
-section {
-    padding: 3em 1em;
-}
-
-p {
-    width: 80%;
-    margin: auto;
-    padding-bottom: 3rem;
-    /*margin-top: 55%;
-    margin-left: 140px;
-    margin-right: 100px;*/
-    line-height: 1.5;
-    letter-spacing: .5px;
-}
-
-.bio {
-    font-size: 18px;
-}
-
-.about-me {
+.photo-categories {
     width: 100%;
-    /*background: var(--background);*/
+    background: var(--background);
     position: absolute;
     top: 17%;
     display: flex;
@@ -157,8 +132,26 @@ p {
     color: #001512;
 }
 
+#photos {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+
+.photos1 {
+    padding-bottom: 3em;
+}
+
+.photos2 {
+    padding-bottom: 3em;
+}
+
+.photos3 {
+    padding-bottom: 3em;
+}
+
 footer {
-    /*background: var(--background);*/
+    background: var(--background);
     padding: .25em;
 
     margin-top: auto;
@@ -230,7 +223,7 @@ footer {
         transform: scale(1,1);
     }
 
-    .about-me {
+    .photo-categories {
         display: flex;
         flex-direction: row;
         position: absolute;
@@ -239,29 +232,9 @@ footer {
         margin-left: 50px;
     }
 
-    .profile-pic {
+    #photos {
         height: 560px;
-        width: 1400px;
         margin-left: 5rem;
         margin-bottom: 2rem;
         margin-top: -1.5rem;
     }
-
-    .about-me__bio,
-    .about-me__profile-pic {
-        flex: 0 1 50%;
-    }
-
-    .bio {
-        display: flex;
-        justify-content: center;
-        padding-bottom: 2rem;
-    }
-
-    .bio p {
-        font-size: 25px;
-        padding: 0 1em;
-        margin-left: 6.5em;
-    }
-}
-
