@@ -8,6 +8,8 @@ html{
 
 *, *::before, *::after {
     box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
 }
 
 body {
@@ -132,6 +134,38 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     color: #001512;
+}
+
+.hover-card {
+    position: relative;
+}
+
+.hover-card:hover .overlay {
+    opacity: .5;
+}
+
+.overlay {
+  color: black;
+  background: #666e6d;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  top: -4.25%;
+  right: 3.7%;
+  bottom: 14.2%;
+  left: 16.5%;
+  font-size: 2rem;
+
+  display: grid;
+  place-items: center;
+  
+  transition: all .25s;
+}
+
+.hover-card img {
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
 #photos {
