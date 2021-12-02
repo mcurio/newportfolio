@@ -1,6 +1,8 @@
 html{
-    max-height: 100%;
-}:root {
+    height: 150%;
+}
+
+:root {
     --background: rgba(77, 93, 91, 255);
 }
 
@@ -14,7 +16,7 @@ body {
     font-family: Helvetica, sans-serif;
     font-weight: 400;
 
-    min-height: 100vh;
+    min-height: 180%;
 
     display: flex;
     flex-direction: column;
@@ -122,11 +124,11 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-.photo-categories {
+.flex-container {
     width: 100%;
-    background: var(--background);
+    /*background: var(--background);*/
     position: absolute;
-    top: 17%;
+    top: 25%;
     display: flex;
     flex-direction: column;
     color: #001512;
@@ -151,12 +153,12 @@ nav a:hover {
 }
 
 footer {
-    background: var(--background);
+    /*background: var(--background);*/
     padding: .25em;
 
     margin-top: auto;
     margin-right: 2em;
-    margin-bottom: .25em;
+    /*margin-bottom: .25em;*/
     display: flex;
     justify-content: right;
 }
@@ -170,13 +172,21 @@ footer {
 }
 
 @media screen and (min-width: 800px) {
+    html{
+        height: 100%;
+    }
+
+    body {
+        min-height: 100%;
+    }
+
     .nav-toggle-label {
         display: none;
     }
 
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 10fr) 1fr;
+        grid-template-columns: 1fr auto minmax(600px) 1fr;
     }
 
     .logo {
@@ -223,13 +233,26 @@ footer {
         transform: scale(1,1);
     }
 
-    .photo-categories {
+    .flex-container {
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: 20%;
+        top: 26%;
         height: 100%
         margin-left: 50px;
+    }
+
+    .flex-contained {
+        display: flex;
+    }
+
+    .flex-child {
+        flex: 1;
+        border: 2px solid yellow;
+    }
+
+    .flex-child:first-child {
+        margin-right: 20px;
     }
 
     #photos {

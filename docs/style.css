@@ -163,7 +163,6 @@ footer {
 
     margin-top: auto;
     margin-right: 2em;
-    margin-bottom: .25em;
     display: flex;
     justify-content: right;
 }
@@ -183,7 +182,7 @@ footer {
 
     header {
         display: grid;
-        grid-template-columns: 1fr auto minmax(600px, 10fr) 1fr;
+        grid-template-columns: 1fr auto minmax(600px) 1fr;
     }
 
     .logo {
