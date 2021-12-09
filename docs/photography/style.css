@@ -140,7 +140,7 @@ nav a:hover {
     position: relative;
 }
 
-.hover-card:hover .overlay {
+.hover-card:hover .overlay{
     opacity: .5;
 }
 
@@ -150,16 +150,60 @@ nav a:hover {
   opacity: 0;
   position: absolute;
   z-index: 1;
-  top: -4.25%;
-  right: 3.7%;
-  bottom: 14.2%;
-  left: 16.5%;
+  top: 0;
+  right: 10%;
+  bottom: 8.5%;
+  left: 10%;
   font-size: 2rem;
 
   display: grid;
   place-items: center;
   
   transition: all .25s;
+}
+
+.hover-card:hover .overlay2 {
+    opacity: .5;
+}
+
+.overlay2 {
+    color: black;
+    background: #666e6d;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 10%;
+    bottom: 7%;
+    left: 10%;
+    font-size: 2rem;
+  
+    display: grid;
+    place-items: center;
+    
+    transition: all .25s;
+}
+
+.hover-card:hover .overlay3 {
+    opacity: .5;
+}
+
+.overlay3 {
+    color: black;
+    background: #666e6d;
+    opacity: 0;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 10%;
+    bottom: 7.25%;
+    left: 10%;
+    font-size: 2rem;
+  
+    display: grid;
+    place-items: center;
+    
+    transition: all .25s;
 }
 
 .hover-card img {
@@ -289,9 +333,86 @@ footer {
         margin-right: 20px;
     }
 
+    .hover-card {
+        position: relative;
+    }
+
+    .hover-card:hover .overlay{
+        opacity: .5;
+    }
+
+    .overlay {
+        color: black;
+        background: #666e6d;
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+        top: -4.25%;
+        right: 3.7%;
+        bottom: 14.2%;
+        left: 16.5%;
+        font-size: 2rem;
+      
+        display: grid;
+        place-items: center;
+        
+        transition: all .25s;
+    }
+
+    .hover-card:hover .overlay2 {
+        opacity: .5;
+    }
+
+    .overlay2 {
+        color: black;
+        background: #666e6d;
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+        top: -4.25%;
+        right: .5%;
+        bottom: 14.2%;
+        left: 19.5%;
+        font-size: 2rem;
+      
+        display: grid;
+        place-items: center;
+        
+        transition: all .25s;
+    }
+
+    .hover-card:hover .overlay3 {
+        opacity: .5;
+    }
+
+    .overlay3 {
+        color: black;
+        background: #666e6d;
+        opacity: 0;
+        position: absolute;
+        z-index: 1;
+        top: -4.25%;
+        right: 1%;
+        bottom: 14.2%;
+        left: 18.75%;
+        font-size: 2rem;
+      
+        display: grid;
+        place-items: center;
+        
+        transition: all .25s;
+    }
+      
+    .hover-card img {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
     #photos {
         height: 560px;
         margin-left: 5rem;
         margin-bottom: 2rem;
         margin-top: -1.5rem;
     }
+}
