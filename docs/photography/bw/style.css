@@ -126,6 +126,22 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+.images-container {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
+
+.card {
+    width: 350px;
+    height: 200px;
+    margin-top: 150px;
+    background: green;
+
+    font-size: 2.5em;
+    text-align: center;
+}
+
 @media screen and (min-width: 800px) {
     html{
         height: 100%;
@@ -192,10 +208,16 @@ nav a:hover {
         display: flex;
         flex-direction: row;
         width: fit-content;
+        margin-top: 140px;
+        margin-left: 500px;
     }
 
     .card {
         width: 350px;
         height: 200px;
+        background: green;
+
+        font-size: 2.5em;
+        text-align: center;
     }
 }
