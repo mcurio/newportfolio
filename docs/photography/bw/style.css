@@ -181,34 +181,45 @@ nav a:hover {
         right: 0;
         transform: scale(0,1);
         transform-origin: right;
-        transition: transform ease-in-out 250ms;
+        transition: transform ease-in-out: 250ms;
     }
 
     nav a:hover::before {
         transform: scale(1,1);
     }
 
-    .wrapper {
-        max-height: 120px;
-        border: 1px solid black;
-        display: flex;
-        overflow-x: auto;
-
-
+    .slide-container {
+        width: 300px;
+        height: 500px;
     }
 
-    .wrapper::-webkit-scrollbar {
-        width: 0px;
+    /*.horizontal_slider {
+         display: block;
+         width: 100%;
+         overflow-x: scroll;
+         margin-top: 170px;
+         margin-left: 170px;
     }
 
-    .wrapper .item {
-        width: 110px;
-        height: 110px;
-        line-height: 110px;
-        text-align: center;
-        background-color:green;
-        margin-right: 2px;
-
-        margin-top: 300px;
+    .slider_container {
+        display: block;
+        white-space: nowrap;
+        object-fit: contain;
     }
+
+    .item {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .item img {
+        width: 310px;
+        height: 450px;
+    }
+
+    /*.item .touch_face {
+        width: 360px;
+        height: 450px;
+        margin-bottom: 13px;
+    }*/
 }
