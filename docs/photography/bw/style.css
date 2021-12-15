@@ -126,6 +126,113 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
+.wrapper {
+    max-height: 100%;
+    /*border: 1px solid #ddd;*/
+    display: flex;
+    margin-top: 200px;
+    /*margin-left: 60px;*/
+    overflow: clip;
+    overflow-clip-margin: 6463px;
+}
+
+.wrapper .item {
+    min-width: 500px;
+    max-width: 500px;
+    height: 500px;
+    text-align: center;
+    /*background-color: #ddd;*/
+}
+
+.img1 {
+    width: 320px;
+    height: 100%;
+}
+
+.img2 {
+    width: 330px;
+    height: 100%;
+    margin-left: -100px;
+}
+
+.img3 {
+    width: 350px;
+    height: 500px;
+    margin-left: -355px;
+}
+
+.img4 {
+    width: 420px;
+    height: 500px;
+    margin-left: -530px;
+}
+
+.img5 {
+    width: 340px;
+    height: 500px;
+    margin-left: -715px;
+}
+
+.img6 {
+    width: 430px;
+    height: 500px;
+    margin-left: -885px;
+}
+
+.img7 {
+    width: 370px;
+    height: 500px;
+    margin-left: -1020px;
+}
+
+.img8 {
+    width: 385px;
+    height: 500px;
+    margin-left: -1210px;
+}
+
+.img9 {
+    width: 375px;
+    height: 500px;
+    margin-left: -1390px;
+}
+
+.img10 {
+    width: 400px;
+    height: 500px;
+    margin-left: -1550px;
+}
+
+.img11 {
+    width: 365px;
+    height: 500px;
+    margin-left: -1725px;
+}
+
+.img12 {
+    width: 700px;
+    height: 500px;
+    margin-left: -1600px;
+}
+
+.img13 {
+    width: 310px;
+    height: 500px;
+    margin-left: -1530px;
+}
+
+.img14 {
+    width: 700px;
+    height: 500px;
+    margin-left: -1465px;
+}
+
+.img15 {
+    width: 750px;
+    height: 500px;
+    margin-left: -965px;
+}
+
 @media screen and (min-width: 800px) {
     html{
         height: 100%;

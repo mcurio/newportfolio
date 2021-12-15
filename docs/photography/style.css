@@ -315,7 +315,7 @@ footer {
         display: flex;
         flex-direction: row;
         position: absolute;
-        margin-left: 20px;
+        margin-left: 10px;
         /*top: 26%;
         height: 30%;*/
     }
