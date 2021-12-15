@@ -315,9 +315,9 @@ footer {
         display: flex;
         flex-direction: row;
         position: absolute;
-        top: 26%;
-        height: 100%
-        margin-left: 50px;
+        margin-left: 20px;
+        /*top: 26%;
+        height: 30%;*/
     }
 
     .flex-contained {
@@ -347,9 +347,9 @@ footer {
         opacity: 0;
         position: absolute;
         z-index: 1;
-        top: -4.25%;
+        top: -4.15%;
         right: 3.7%;
-        bottom: 14.2%;
+        bottom: 14%;
         left: 16.5%;
         font-size: 2rem;
       
@@ -369,9 +369,9 @@ footer {
         opacity: 0;
         position: absolute;
         z-index: 1;
-        top: -4.25%;
+        top: -4.15%;
         right: .5%;
-        bottom: 14.2%;
+        bottom: 14%;
         left: 19.5%;
         font-size: 2rem;
       
@@ -391,9 +391,9 @@ footer {
         opacity: 0;
         position: absolute;
         z-index: 1;
-        top: -4.25%;
+        top: -4.15%;
         right: 1%;
-        bottom: 14.2%;
+        bottom: 14%;
         left: 18.75%;
         font-size: 2rem;
       
