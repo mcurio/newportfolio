@@ -126,25 +126,6 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-footer {
-    /*background: var(--background);*/
-    padding: .25em;
-
-    margin-top: auto;
-    margin-right: 2em;
-    /*margin-bottom: .25em;*/
-    display: flex;
-    justify-content: right;
-}
-
-.icon-insta {
-    margin-right: 2em;
-}
-
-.icon-linkedin {
-    padding-bottom: 5px;
-}
-
 @media screen and (min-width: 800px) {
     html{
         height: 100%;
@@ -207,10 +188,25 @@ footer {
         transform: scale(1,1);
     }
 
-    iframe {
-        margin-top: 170px;
-        margin-left: 230px;
-        width: 70%;
-        height: 550px;
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-decoration: none;
+        color: white;
+    }
+
+    body {
+        background: url(../assets/images/pinoy-food.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    form {
+        background: rgba(27,31,34,0.80);
+        width: 640px;
+        margin: 50px auto;
     }
 }
